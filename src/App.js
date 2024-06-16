@@ -17,27 +17,27 @@ function App() {
       <ProjectCard
         id = "project"
         className = "odd"
-        projectTitle="Wiggles: Pet Care Made Easy"
+        projectTitle="Chat.FSTT: Pet Care Made Easy"
         projectDesc="A one-stop solution for pet data management, automated vaccinations, QR-based lost pet recovery, and organizing pet playdates."
-        projectLink="https://github.com/DevanshSahni/Wiggles"
-        deployedProjectLink="https://wiggles.vercel.app"
+        projectLink="https://github.com/ZyasmineZ/ChatBot"
+        deployedProjectLink="https://github.com/ZyasmineZ/ChatBot"
         projectImg={require('./images/projectWiggles.jpg')}
       />
 
       <ProjectCard
         projectTitle="Animated Card: featuring the latest glassmorphism trend"
         projectDesc="React JS provided me the flexibility needed to create an interactive card with a glass-like effect, which adds a sense of depth and dimension to the user interface"
-        projectLink="https://github.com/Deepajha14/Touch-me-not-Card"
-        deployedProjectLink="https://deepajha14.github.io/Touch-me-not-Card/"
+        projectLink="https://github.com/ZyasmineZ/Sentiment-analysis-from-Twitter-Social-Network-Data-Streams"
+        deployedProjectLink="https://github.com/ZyasmineZ/Sentiment-analysis-from-Twitter-Social-Network-Data-Streams"
         projectImg={require('./images/projectGlassmorphism.png')}
       />
 
       <ProjectCard
         className = "odd"
-        projectTitle="Rog-free: accessible anytime, anywhere"
+        projectTitle="Happy Bear: accessible anytime, anywhere"
         projectDesc="An approach to target and heal specific health conditions by transforming the living room into a yoga studio"
-        projectLink="https://github.com/Deepajha14/Rog-Free"
-        deployedProjectLink="https://deepajha14.github.io/Rog-Free/"
+        projectLink="https://github.com/ZyasmineZ/HappyBear"
+        deployedProjectLink="https://github.com/ZyasmineZ/HappyBear"
         projectImg={require('./images/projectRogfree.png')}
       />
       <AboutMe id = 'about' />
