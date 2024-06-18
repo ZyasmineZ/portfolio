@@ -17,16 +17,16 @@ function App() {
       <ProjectCard
         id = "project"
         className = "odd"
-        projectTitle="Chat.FSTT: Pet Care Made Easy"
-        projectDesc="A one-stop solution for pet data management, automated vaccinations, QR-based lost pet recovery, and organizing pet playdates."
+        projectTitle="Chat.FSTT: University Chat Bot"
+        projectDesc="A chat bot that provides instant answers to common questions about my university."
         projectLink="https://github.com/ZyasmineZ/ChatBot"
         deployedProjectLink="https://github.com/ZyasmineZ/ChatBot"
         projectImg={require('./images/projectWiggles.jpg')}
       />
 
       <ProjectCard
-        projectTitle="Animated Card: featuring the latest glassmorphism trend"
-        projectDesc="React JS provided me the flexibility needed to create an interactive card with a glass-like effect, which adds a sense of depth and dimension to the user interface"
+        projectTitle="Tweet Sentiment Analysis App"
+        projectDesc="App that performs sentiment analysis on tweets. The app uses machine learning algorithms to classify the sentiment of tweets, providing insights into public opinion on various topics in real-time."
         projectLink="https://github.com/ZyasmineZ/Sentiment-analysis-from-Twitter-Social-Network-Data-Streams"
         deployedProjectLink="https://github.com/ZyasmineZ/Sentiment-analysis-from-Twitter-Social-Network-Data-Streams"
         projectImg={require('./images/projectGlassmorphism.png')}
@@ -34,8 +34,8 @@ function App() {
 
       <ProjectCard
         className = "odd"
-        projectTitle="Happy Bear: accessible anytime, anywhere"
-        projectDesc="An approach to target and heal specific health conditions by transforming the living room into a yoga studio"
+        projectTitle="Happy Bear: 2D Game in C++"
+        projectDesc="Designed and developed a 2D game using C++. This project helped me learn the basics of game development, including graphics rendering, game mechanics, and user input handling."
         projectLink="https://github.com/ZyasmineZ/HappyBear"
         deployedProjectLink="https://github.com/ZyasmineZ/HappyBear"
         projectImg={require('./images/projectRogfree.png')}

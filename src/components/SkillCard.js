@@ -2,7 +2,7 @@ import React from 'react'
 import "./SkillCardStyle.css";
 import { CgCPlusPlus } from "react-icons/cg";
 import {DiGit} from "react-icons/di";
-import {SiVisualstudiocode, SiReact, SiReactrouter, SiBootstrap, SiFigma, SiInkscape } from "react-icons/si";
+import {SiVisualstudiocode, SiReact, SiBootstrap, SiFigma, SiPython, SiAngular } from "react-icons/si";
 import {TbBrandCss3, TbBrandJavascript, TbBrandHtml5} from "react-icons/tb";
 import {IoLogoWindows, IoLogoNpm} from "react-icons/io"
 
@@ -17,6 +17,7 @@ export default function SkillCard({id}) {
               <abbr title='C++'><CgCPlusPlus className='techLogo'/></abbr>
               <abbr title='HTML 5'><TbBrandHtml5 className='techLogo'/></abbr>
               <abbr title='JavaScript'><TbBrandJavascript className='techLogo'/></abbr>
+              <abbr title='Python'><SiPython className='techLogo'/></abbr>
             </div>                     
           </div>
           <div className="skill-box">
@@ -27,7 +28,7 @@ export default function SkillCard({id}) {
               <abbr title='Git/Github'><DiGit className='techLogo'/></abbr>
               <abbr title='NPM'><IoLogoNpm className='techLogo'/></abbr>
               <abbr title='Bootstrap'><SiBootstrap className='techLogo'/></abbr>
-              <abbr title='React Router'><SiReactrouter className='techLogo'/></abbr>
+              <abbr title='Angular'><SiAngular className='techLogo'/></abbr>
             </div>            
           </div>
           <div className="skill-box">
@@ -36,7 +37,6 @@ export default function SkillCard({id}) {
               <abbr title='Visual Studio Code'><SiVisualstudiocode className='techLogo'/></abbr>
               <abbr title='Windows'><IoLogoWindows className='techLogo'/></abbr>
               <abbr title='Figma'><SiFigma className='techLogo'/></abbr>
-              <abbr title='Inkscape'><SiInkscape className='techLogo'/></abbr>
             </div>            
           </div>
         </div>
